@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Do not ignore directories, so Git can traverse into them
+!*/
+
+# Unignore specific file extensions
+!*.cpp
+!*.h
+!*.gitignore
