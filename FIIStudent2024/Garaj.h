@@ -7,6 +7,7 @@ class Garaj
     int currentVehicul;
 public:
     Garaj(int maxVehicule);
+    ~Garaj();
     Garaj& operator+=(Vehicul* vehicul);
     void pornesteVehicule();
 };

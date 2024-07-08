@@ -4,8 +4,10 @@
 class Catalog
 {
     Student** students; //array alocat dynamic de obiecte de tip student*
+    //Student students[10];
+    //int maxStudents = 10;
     int maxStudents;
-    int currentStudents;
+    int currentStudents; //numarul curent de studenti din catalog
 
 public:
     Catalog(int maxStudents);

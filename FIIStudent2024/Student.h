@@ -4,9 +4,11 @@
 
 class Student {
     //default access modifier: private
+
     int age; //data member
     char id[40]; //student id
     char name[40]; //data member -> however, usually pointers and memory dynamic allocation is preffered
+    
     float mathGrade;  
     float englishGrade; 
     float csGrade; 

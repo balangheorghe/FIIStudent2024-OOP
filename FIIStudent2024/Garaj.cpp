@@ -7,6 +7,16 @@ Garaj::Garaj(int maxVehicule)
     this->currentVehicul = 0;
 }
 
+Garaj::~Garaj()
+{
+    std::cout << "Sunt in destructorul din Garaj!\n";
+    if (this->vehicule != nullptr)
+    {
+        delete vehicule;
+        vehicule = nullptr;
+    }
+}
+
 Garaj& Garaj::operator+=(Vehicul* vehicul)
 {
     if (this->currentVehicul < this->maxVehicule)

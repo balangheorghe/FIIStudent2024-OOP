@@ -2,8 +2,7 @@
 
 Masina::Masina()
 {
-    
-    //this->wheelsNumber = 4;
+    this->wheelsNumber = 4;
     this->maxPeople = 5;
     this->trunkVolume = 300;
 }

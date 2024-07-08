@@ -63,6 +63,7 @@ Catalog& Catalog::operator+=(Student* s)
 
 Student* Catalog::operator[](const char* id)
 {
+    std::cout << "Sunt in operator de indexare [] " << id << "\n";
     for (int i = 0; i < this->currentStudents; i++)
     {
         if (strcmp(this->students[i]->GetId(), id) == 0)
@@ -75,6 +76,7 @@ Student* Catalog::operator[](const char* id)
 
 bool Catalog::operator==(int value)
 {
+    std::cout << "Sunt in operator==, am primit " << value << "\n";
     return this->currentStudents == value;
 }
 

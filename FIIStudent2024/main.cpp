@@ -14,6 +14,9 @@ int main()
     PRIMA PARTE
     */
 
+    Student s;
+    
+
     std::cout << 5 / EXPRESSION << "\n";
 
     std::cout << "\n============================================\n\n";
@@ -69,6 +72,11 @@ int main()
     if (c2 == 3)
     {
         std::cout << "Media din catalog c2 este: " << c2.GetCatalogAverage() << "\n";
+    }
+
+    if (c2 == 2)
+    {
+        std::cout << "Nu ar trebui sa se afiseze asta!";
     }
 
     std::cout << "\n============================================\n\n";
@@ -127,6 +135,10 @@ int main()
     g += &masina;
     g += &camion;
     g.pornesteVehicule();
+
+    std::cout << "\n============================================\n\n";
+    std::cout << "Fac un delete explicit\n";
+    delete &g;
 
     std::cout << "\n============================================\n\n";
 
