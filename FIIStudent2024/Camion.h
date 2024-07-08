@@ -1,8 +1,9 @@
 #pragma once
 #include "Vehicul.h"
 class Camion : public Vehicul {
-    int maxCapacity;
+    int maxTrailerCapacity;
 public:
+    Camion();
     virtual void porneste();
     virtual void drive();
     void incarcaRemorca();

@@ -8,3 +8,4 @@
 !*.cpp
 !*.h
 !*.gitignore
+!*.txt

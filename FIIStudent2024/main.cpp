@@ -6,11 +6,17 @@
 
 using namespace std;
 
+#define EXPRESSION 5+6
+
 int main()
 {
     /*
     PRIMA PARTE
     */
+
+    std::cout << 5 / EXPRESSION << "\n";
+
+    std::cout << "\n============================================\n\n";
 
     Student student1;
     Student student2(19, "Andrei Popescu", "RSL001");

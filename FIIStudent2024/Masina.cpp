@@ -1,7 +1,16 @@
 #include "Masina.h"
 
+Masina::Masina()
+{
+    
+    //this->wheelsNumber = 4;
+    this->maxPeople = 5;
+    this->trunkVolume = 300;
+}
+
 void Masina::porneste(){
     std::cout << "Am pornit masina!\n";
+    std::cout << "Aceasta are " << this->wheelsNumber << " roti si poate acomoda maxim " << this->maxPeople << " persoane si " << this->trunkVolume << "l de bagaje\n";
 }
 
 void Masina::drive() {

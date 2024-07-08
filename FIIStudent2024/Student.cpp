@@ -46,6 +46,16 @@ void Student::SetMathGrade(float mathGrade)
     this->mathGrade = mathGrade;
 }
 
+void Student::SetMathGrade(int mathGrade)
+{
+    this->mathGrade = (float)mathGrade;
+}
+
+void Student::SetMathGrade(int mathGrade, int scalar)
+{
+    this->mathGrade = (float) (mathGrade * scalar);
+}
+
 void Student::SetEnglishGrade(float englishGrade)
 {
     this->englishGrade = englishGrade;
